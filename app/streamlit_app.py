@@ -10,6 +10,9 @@ Run with:
     streamlit run app/streamlit_app.py
 """
 
+from __future__ import annotations
+
+import re
 import sys
 from pathlib import Path
 
@@ -96,10 +99,21 @@ def metric_card(label: str, value: str, color: str = TEXT, small: bool = False) 
     return f'<div class="{cls}"><h2 style="color:{color}">{value}</h2><p>{label}</p></div>'
 
 
-def load_dataframe(uploaded_file) -> pd.DataFrame:
-    if uploaded_file.name.lower().endswith(".csv"):
-        return pd.read_csv(uploaded_file, dtype=str, keep_default_na=False)
-    return pd.read_excel(uploaded_file, dtype=str, keep_default_na=False)
+def get_sheet_names(file_or_path) -> list:
+    """Sheet names for an .xlsx/.xls source, [] for CSV (which has none)."""
+    try:
+        return pd.ExcelFile(file_or_path).sheet_names
+    except Exception:
+        return []
+
+
+def load_dataframe(file_or_path, sheet_name=None) -> pd.DataFrame:
+    name = getattr(file_or_path, "name", str(file_or_path))
+    if name.lower().endswith(".csv"):
+        return pd.read_csv(file_or_path, dtype=str, keep_default_na=False)
+    return pd.read_excel(
+        file_or_path, sheet_name=sheet_name or 0, dtype=str, keep_default_na=False
+    )
 
 
 # ------------------------------------------------------------------ header --
@@ -147,13 +161,29 @@ if uploaded_file is None:
     st.info("Upload a spreadsheet on the left, or pick a sample dataset to see the profiler in action.")
     st.stop()
 
+base_file_name = uploaded_file.name  # pathlib.Path and Streamlit's UploadedFile both expose .name
+
+# ------------------------------------------------------- multi-sheet picker --
+sheet_names = get_sheet_names(uploaded_file) if not base_file_name.lower().endswith(".csv") else []
+if not isinstance(uploaded_file, Path) and hasattr(uploaded_file, "seek"):
+    uploaded_file.seek(0)  # ExcelFile() above consumed the buffer — rewind before the real read
+
+selected_sheet = None
+if len(sheet_names) > 1:
+    with st.sidebar:
+        st.divider()
+        st.markdown("**Sheet**")
+        selected_sheet = st.selectbox(
+            "This workbook has multiple sheets — pick one to profile:",
+            sheet_names,
+            label_visibility="collapsed",
+        )
+    if not isinstance(uploaded_file, Path) and hasattr(uploaded_file, "seek"):
+        uploaded_file.seek(0)
+
 # ------------------------------------------------------------ run profiler --
-if isinstance(uploaded_file, Path):
-    df = pd.read_excel(uploaded_file, dtype=str, keep_default_na=False)
-    file_label = uploaded_file.name
-else:
-    df = load_dataframe(uploaded_file)
-    file_label = uploaded_file.name
+df = load_dataframe(uploaded_file, sheet_name=selected_sheet)
+file_label = f"{base_file_name} — {selected_sheet}" if selected_sheet else base_file_name
 
 with st.spinner("Profiling..."):
     profile = profile_dataset(df)
@@ -354,9 +384,19 @@ report_rows = [
     for c in profile.columns
 ]
 report_df = pd.DataFrame(report_rows)
+
+
+def safe_filename_slug(name: str, sheet: str | None) -> str:
+    """'employees.xlsx' + 'Q1 Sales' -> 'employees-Q1_Sales' (filesystem-safe)."""
+    base = re.sub(r"\.[^./\\]+$", "", name) or "report"
+    slug = f"{base}-{sheet}" if sheet else base
+    slug = re.sub(r"[^a-zA-Z0-9._-]+", "_", slug).strip("_")
+    return slug or "report"
+
+
 st.download_button(
     "⬇ Download full report as CSV",
     report_df.to_csv(index=False).encode("utf-8"),
-    file_name=f"quality_report_{Path(file_label).stem}.csv",
+    file_name=f"quality_report_{safe_filename_slug(base_file_name, selected_sheet)}.csv",
     mime="text/csv",
 )
