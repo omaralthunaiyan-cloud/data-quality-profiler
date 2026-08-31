@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-3fe089.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-8d6bff.svg)](requirements.txt)
 
-**🌐 [Try the live, zero-install demo →](https://claude.ai/code/artifact/dff15977-cbaf-4bca-9da4-d3f45b7cec77)** — same engine, ported to vanilla JS, runs entirely in your browser. Nothing to install, nothing uploaded anywhere. It even exports a formatted PDF report.
+**🌐 [Try the live, zero-install demo →](https://omaralthunaiyan-cloud.github.io/data-quality-profiler/)** — same engine, ported to vanilla JS, runs entirely in your browser. Nothing to install, nothing uploaded anywhere. It even exports a formatted PDF report.
 
 No schema. No column mapping. No "tell me what this file contains" step. Point it at an HR export, a project tracker, a sales ledger — anything with rows and columns — and it infers what each column *should* look like, then tells you exactly where the data breaks that pattern.
 
@@ -37,7 +37,7 @@ Dataset-level, it also rolls every column into a set of headline KPIs — averag
 
 ## Try it in 60 seconds
 
-**Option A — zero install:** open the **[live demo](https://claude.ai/code/artifact/dff15977-cbaf-4bca-9da4-d3f45b7cec77)**, click a sample dataset (or drop in your own file), done.
+**Option A — zero install:** open the **[live demo](https://omaralthunaiyan-cloud.github.io/data-quality-profiler/)**, click a sample dataset (or drop in your own file), done.
 
 **Option B — run the Python/Streamlit version locally:**
 
@@ -74,7 +74,7 @@ The type-inference and profiling engine (`src/`) has **no dependency on the UI**
 
 ## Two implementations, one engine
 
-This repo ships the original Python/pandas implementation, with a full test suite and CI. The [live demo](https://claude.ai/code/artifact/dff15977-cbaf-4bca-9da4-d3f45b7cec77) is a from-scratch port of the same detectors and scoring rules to dependency-free vanilla JavaScript, so it can run entirely client-side with no server and no install — including a one-click, print-ready PDF export. Porting the same logic to a second language and getting matching scores on both sample datasets (89.5/100 and 95.0/100) was itself a useful correctness check on the scoring rules.
+This repo ships the original Python/pandas implementation, with a full test suite and CI. The [live demo](https://omaralthunaiyan-cloud.github.io/data-quality-profiler/) is a from-scratch port of the same detectors and scoring rules to dependency-free vanilla JavaScript, so it can run entirely client-side with no server and no install — including a one-click, print-ready PDF export. Porting the same logic to a second language and getting matching scores on both sample datasets (89.5/100 and 95.0/100) was itself a useful correctness check on the scoring rules.
 
 ## How type inference works
 
