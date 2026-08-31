@@ -1,0 +1,91 @@
+project_id,project_name,start_date,end_date,budget_sar,status,priority,completion_pct,project_manager_email
+PRJ-2000,Initiative 1,2023-10-23,,83614,Cancelled,Low,64%,pm14@company.com
+PRJ-2001,Initiative 2,2023-03-25,2023-11-19,507734,active,med,23%,n/a
+PRJ-2002,Initiative 3,2023-06-29,2024-06-04,1582702,active,med,35%,pm1@company.com
+PRJ-2003,Initiative 4,2023-05-15,2024-06-02,1586615,COMPLETED,high,92%,pm14@company.com
+PRJ-2004,Initiative 5,2025-09-03,2025-12-10,1878745,On Hold,med,31%,pm1@company.com
+PRJ-2005,Initiative 6,2024-12-30,2025-10-22,984841,On Hold,high,9%,pm2@company.com
+PRJ-2006,Initiative 7,2024-08-20,2024-11-13,1582904,Cancelled,Medium,135%,pm10@company.com
+PRJ-2007,Initiative 8,2024-05-27,2025-04-06,,Cancelled,med,2%,pm8@company.com
+PRJ-2008,Initiative 9,2025-06-28,2025-09-18,785470,On Hold,High,91%,pm13@company.com
+PRJ-2009,Initiative 10,2023-10-08,2024-08-10,1291119,Active,high,29%,pm20@company.com
+PRJ-2010,Initiative 11,2026-05-19,2027-03-14,125932,Completed,med,6%,pm11@company.com
+PRJ-2011,Initiative 12,2025-03-31,2026-02-11,162309,COMPLETED,High,18%,pm17@company.com
+PRJ-2012,Initiative 13,2024-01-19,2024-03-24,730211,Completed,High,64%,pm2@company.com
+PRJ-2013,Initiative 14,2023-03-12,2024-03-04,,Active,Low,86%,pm1@company.com
+PRJ-2014,Initiative 15,2025-06-07,,132667,Cancelled,Low,39%,pm19@company.com
+PRJ-2015,Initiative 16,2025-12-29,2026-04-13,972698,COMPLETED,High,16%,pm10@company.com
+PRJ-2016,Initiative 17,2025-07-19,2026-06-26,1507173,On Hold,med,83%,pm10@company.com
+PRJ-2017,Initiative 18,2023-03-05,2023-08-06,749749,active,Medium,65%,pm11@company.com
+PRJ-2018,Initiative 19,2025-10-03,2026-03-20,647310,On Hold,high,27%,pm17@company.com
+PRJ-2019,Initiative 20,2025-03-05,2025-11-15,792629,Completed,Low,13%,pm5@company.com
+PRJ-2020,Initiative 21,2024-02-19,2025-01-29,1330849,On Hold,Medium,66%,pm4@company.com
+PRJ-2021,Initiative 22,2023-01-09,2023-09-06,1655741,On Hold,med,15%,pm13@company.com
+PRJ-2022,Initiative 23,2025-07-15,2026-08-03,1010290,On Hold,High,45%,pm16@company.com
+PRJ-2023,Initiative 24,2025-02-18,2025-11-02,679193,On Hold,Low,38%,pm20@company.com
+PRJ-2024,Initiative 25,2024-05-11,2024-11-23,478468,On Hold,med,117%,pm14@company.com
+PRJ-2025,Initiative 26,11-25-25,2026-09-15,1574871,Active,High,49%,pm4@company.com
+PRJ-2026,Initiative 27,2025-04-18,2025-11-25,1100481,Completed,high,71%,pm19@company.com
+PRJ-2027,Initiative 28,2024-12-04,2025-12-23,1161781,Cancelled,Medium,11%,pm10@company.com
+PRJ-2028,Initiative 29,2024-12-04,2025-09-20,1912572,active,high,80%,pm19@company.com
+PRJ-2029,Initiative 30,05-20-26,2026-08-12,790681,On Hold,med,80%,n/a
+PRJ-2030,Initiative 31,2024-09-15,2025-05-06,1816133,On Hold,med,1%,pm5@company.com
+PRJ-2031,Initiative 32,2026-03-22,,912140,active,med,18%,pm15@company.com
+PRJ-2032,Initiative 33,2025-05-31,2025-07-31,-1413359,Active,Low,98%,pm19@company.com
+PRJ-2033,Initiative 34,2023-05-10,2023-12-04,451925,Completed,High,115%,pm8@company.com
+PRJ-2034,Initiative 35,2024-04-01,2024-05-23,384290,Cancelled,Low,22%,pm16@company.com
+PRJ-2035,Initiative 36,2023-05-19,2023-10-20,1470362,Active,Medium,91%,pm6@company.com
+PRJ-2036,Initiative 37,2025-01-03,2025-08-15,-441229,On Hold,high,37%,pm4@company.com
+PRJ-2037,Initiative 38,2025-05-14,2025-12-09,1211488,Active,Low,24%,pm8@company.com
+PRJ-2038,Initiative 39,2023-09-23,2023-12-09,461663,active,Low,100%,pm13@company.com
+PRJ-2039,Initiative 40,2025-02-10,2026-01-28,1267905,COMPLETED,Low,60%,pm15@company.com
+PRJ-2040,Initiative 41,2026-04-18,2026-11-22,1171265,Active,med,77%,pm13@company.com
+PRJ-2041,Initiative 42,02-28-23,2024-02-29,1556232,On Hold,Medium,146%,pm4@company.com
+PRJ-2042,Initiative 43,2023-05-20,2024-04-01,1966482,On Hold,Medium,64%,pm13@company.com
+PRJ-2043,Initiative 44,2024-08-01,2025-03-01,895945,On Hold,Medium,59%,n/a
+PRJ-2044,Initiative 45,2024-12-20,2025-08-18,102981,Active,Medium,89%,pm9@company.com
+PRJ-2045,Initiative 46,2026-06-01,2026-10-21,1544403,COMPLETED,High,111%,pm6@company.com
+PRJ-2046,Initiative 47,2026-03-02,2026-07-26,1245723,Active,High,66%,pm10@company.com
+PRJ-2047,Initiative 48,03-29-23,2024-02-21,1323783,On Hold,High,31%,pm13@company.com
+PRJ-2048,Initiative 49,2024-03-28,2024-09-17,1155879,COMPLETED,high,54%,pm7@company.com
+PRJ-2049,Initiative 50,2025-05-27,,1123492,Cancelled,Low,99%,pm6@company.com
+PRJ-2050,Initiative 51,2024-04-28,,595840,active,Medium,7%,pm16@company.com
+PRJ-2051,Initiative 52,2025-09-15,2026-02-13,1529794,active,Medium,65%,pm8@company.com
+PRJ-2052,Initiative 53,2024-11-14,2025-11-01,1760002,Completed,high,54%,pm4@company.com
+PRJ-2053,Initiative 54,2024-08-15,2024-09-20,805983,Completed,High,5%,pm15@company.com
+PRJ-2054,Initiative 55,08-17-25,2026-07-04,811215,Active,Low,71%,pm19@company.com
+PRJ-2055,Initiative 56,2024-06-25,2024-09-18,1402889,Active,Low,55%,pm9@company.com
+PRJ-2056,Initiative 57,2024-05-18,2024-07-27,340775,COMPLETED,med,3%,pm6@company.com
+PRJ-2057,Initiative 58,2023-07-29,2024-08-30,1791462,On Hold,Medium,78%,pm12@company.com
+PRJ-2058,Initiative 59,2024-06-03,2024-11-02,-171051,Active,Medium,72%,pm16@company.com
+PRJ-2059,Initiative 60,2023-11-19,,1313796,Completed,High,10%,pm15@company.com
+PRJ-2060,Initiative 61,2025-09-08,2026-01-13,507756,On Hold,High,140%,pm17@company.com
+PRJ-2061,Initiative 62,2025-05-12,2025-12-01,181528,Active,high,85%,pm12@company.com
+PRJ-2062,Initiative 63,2026-03-08,2026-07-16,1033224,active,high,41%,pm20@company.com
+PRJ-2063,Initiative 64,2023-06-16,2023-08-15,1565755,COMPLETED,Medium,77%,pm11@company.com
+PRJ-2064,Initiative 65,2025-12-22,,108388,On Hold,med,28%,pm14@company.com
+PRJ-2065,Initiative 66,2025-01-07,2025-11-04,553816,COMPLETED,High,50%,pm9@company.com
+PRJ-2066,Initiative 67,2023-07-14,2023-11-17,1163117,Active,med,90%,pm19@company.com
+PRJ-2067,Initiative 68,2023-06-14,2024-02-07,1475000,Active,med,56%,pm13@company.com
+PRJ-2068,Initiative 69,2026-01-19,2026-05-16,451909,Active,Low,99%,n/a
+PRJ-2069,Initiative 70,2026-05-02,,1014072,active,med,90%,pm12@company.com
+PRJ-2070,Initiative 71,12-11-23,2024-07-15,1613288,Cancelled,med,97%,pm16@company.com
+PRJ-2071,Initiative 72,2023-03-31,,791222,active,Low,70%,pm15@company.com
+PRJ-2072,Initiative 73,02-13-23,2024-01-06,972491,On Hold,high,2%,pm19@company.com
+PRJ-2073,Initiative 74,05-27-24,2025-03-28,1496027,Cancelled,high,34%,pm2@company.com
+PRJ-2074,Initiative 75,2023-06-02,2023-10-03,1351117,Completed,high,86%,pm20@company.com
+PRJ-2075,Initiative 76,2025-11-24,2026-01-31,806930,On Hold,high,27%,pm15@company.com
+PRJ-2076,Initiative 77,2025-03-05,2025-10-02,-709260,Cancelled,High,74%,pm5@company.com
+PRJ-2077,Initiative 78,2024-07-12,2025-02-23,623231,COMPLETED,High,33%,pm4@company.com
+PRJ-2078,Initiative 79,2024-02-13,2024-10-18,1377710,active,High,12%,pm11@company.com
+PRJ-2079,Initiative 80,2025-01-12,2025-10-29,1839296,COMPLETED,Low,44%,pm16@company.com
+PRJ-2080,Initiative 81,2025-10-28,2026-06-03,1925273,COMPLETED,high,30%,pm13@company.com
+PRJ-2081,Initiative 82,2026-03-10,2026-09-10,1999260,COMPLETED,Low,8%,n/a
+PRJ-2082,Initiative 83,2024-01-25,2024-12-18,1989400,COMPLETED,high,22%,pm3@company.com
+PRJ-2083,Initiative 84,2025-09-19,2026-03-31,1935561,Active,Medium,32%,n/a
+PRJ-2084,Initiative 85,2025-07-06,2025-11-15,1922419,Cancelled,High,64%,n/a
+PRJ-2085,Initiative 86,2026-03-24,,1557882,Active,Medium,24%,pm1@company.com
+PRJ-2086,Initiative 87,2025-09-22,2026-05-17,1328815,Cancelled,Low,43%,pm20@company.com
+PRJ-2087,Initiative 88,2025-03-29,2025-09-06,,Cancelled,Low,3%,pm1@company.com
+PRJ-2088,Initiative 89,2023-11-16,2024-04-01,349175,Cancelled,Medium,11%,pm20@company.com
+PRJ-2089,Initiative 90,2026-03-23,,532351,COMPLETED,med,33%,pm15@company.com

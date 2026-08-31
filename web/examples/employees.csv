@@ -1,0 +1,187 @@
+employee_id,full_name,email,department,hire_date,salary_sar,national_id,performance_rating
+1000,Lama Al-Otaibi,lama.otaibi@company.com,HR,09/04/2022,23559,1644854973,4
+1001,Yousef Al-Qahtani,yousef.qahtani@company.com,Human Resources,2025-02-02,24528,1773701293,4
+1002,Omar Al-Harbi,omar.harbi_company.com,IT,2022-09-30,10726,1701571670,2
+1003,Hind Al-Malki,hind.malki@company.com,Internal Audit,02/02/2024,29334,1321146487,5
+1004,Rima Al-Malki,rima.malki@company.com,Data & Intelligence,2024-01-11,11890,1716782763,5
+1005,Reem Al-Shahri,reem.shahri@company.com,HR,30/05/2022,19701,1625020128,5
+1006,Lama Al-Ghamdi,lama.ghamdi@company.com,HR,2025-04-02,8253,1609059210,1
+1007,Reem Al-Zahrani,reem.zahrani@company.com,finance,2025-10-27,15325,70515,3
+1008,Hind Al-Qahtani,hind.qahtani@company.com,Internal Audit,2023-03-23,10238,68875,5
+1009,Bandar Al-Otaibi,bandar.otaibi@company.com,IT,2025-01-31,19608,1508495730,2
+1010,Faisal Al-Otaibi,faisal.otaibi@company.com,finance,23/04/2023,25304,1256418835,5
+1011,Faisal Al-Amri,faisal.amri@company.com,Internal Audit,2025-09-03,7769,1830761951,4
+1012,Yousef Al-Dosari,,Human Resources,2025-07-23,12245,1274271721,2
+1013,Omar Al-Malki,,Finance,2022-07-27,-26110,1759351559,5
+1014,Hind Al-Ghamdi,hind.ghamdi@company.com,finance,2022-08-25,21269,1254744982,5
+1015,Rima Al-Otaibi,rima.otaibi@company.com,Finance,2023-02-25,23309,1129036651,2
+1016,Reem Al-Zahrani,reem.zahrani@company.com,Information Technology,2022-12-09,13300,1453975088,4
+1017,Maha Al-Dosari,maha.dosari@company.com,Data & Intelligence,2023-04-10,,1129997207,5
+1018,Noura Al-Malki,noura.malki@company.com,Information Technology,2024-07-04,29695,23389,3
+1019,Noura Al-Ghamdi,noura.ghamdi@company.com,HR,2025-07-02,25997,1801129838,2
+1020,Bandar Al-Dosari,bandar.dosari@company.com,Internal Audit,2026-03-17,11849,1193146944,3
+1021,Yousef Al-Qahtani,yousef.qahtani@company.com,Data & Intelligence,2022-12-15,6902,1965974909,5
+1022,Faisal Al-Amri,faisal.amri@company.com,Information Technology,13/02/2022,29801,1249519330,4
+1023,Omar Al-Zahrani,omar.zahrani@company.com,finance,2024-10-23,25216,1995710061,3
+1024,Salman Al-Malki,salman.malki@company.com,IT,2024-11-24,22438,67688,1
+1025,Turki Al-Otaibi,turki.otaibi@company.com,Data & Intelligence,2024-08-27,9943,1656572693,2
+1026,Bandar Al-Amri,bandar.amri_company.com,HR,2023-01-27,31305,1129920624,3
+1027,Lama Al-Malki,lama.malki@company.com,Information Technology,2025-05-26,28699,1966898501,5
+1028,Bandar Al-Amri,bandar.amri@company.com,Internal Audit,2023-02-19,10493,41541,2
+1029,Noura Al-Zahrani,noura.zahrani@company.com,Data & Intelligence,,29465,1371772468,4
+1030,Reem Al-Qahtani,reem.qahtani@company.com,Internal Audit,,27883,1563343017,5
+1031,Yousef Al-Harbi,yousef.harbi@company.com,Finance,2022-07-08,6638,53450,2
+1032,Sara Al-Harbi,sara.harbi@company.com,Internal Audit,03/08/2022,-14910,1390389284,5
+1033,Yousef Al-Otaibi,yousef.otaibi@company.com,Internal Audit,2024-11-20,28951,1958550599,2
+1034,Khalid Al-Saud,khalid.saud@company.com,Internal Audit,18/06/2023,13287,82491,5
+1035,Hind Al-Otaibi,hind.otaibi_company.com,Finance,2025-12-24,9586,1294504003,5
+1036,Abdullah Al-Harbi,abdullah.harbi@company.com,Information Technology,2024-10-21,,12416,3
+1037,Noura Al-Shahri,,Information Technology,2025-08-24,22220,1644049901,4
+1038,Lama Al-Harbi,lama.harbi@company.com,Human Resources,2025-12-18,10578,1158399240,2
+1039,Salman Al-Zahrani,salman.zahrani@company.com,Finance,24/04/2022,18480,1402723555,1
+1040,Rima Al-Otaibi,,Human Resources,02/07/2024,17932,1687415564,5
+1041,Noura Al-Ghamdi,noura.ghamdi@company.com,Human Resources,2023-11-18,21553,1366480598,2
+1042,Khalid Al-Qahtani,,IT,16/04/2025,6737,1190712619,4
+1043,Turki Al-Ghamdi,turki.ghamdi@company.com,Internal Audit,,29729,1985683607,3
+1044,Bandar Al-Amri,bandar.amri@company.com,Information Technology,2025-03-10,6526,1863630305,2
+1045,Omar Al-Saud,,Information Technology,2024-01-09,18341,79657,3
+1046,Khalid Al-Saud,khalid.saud@company.com,Finance,2022-05-24,22481,72109,2
+1047,Maha Al-Zahrani,maha.zahrani@company.com,Finance,2026-03-30,30242,99613,1
+1048,Hind Al-Harbi,hind.harbi_company.com,Data & Intelligence,2022-10-29,27349,1709629482,1
+1049,Rima Al-Zahrani,rima.zahrani@company.com,Data & Intelligence,2022-07-23,28141,1406600040,2
+1050,Bandar Al-Amri,bandar.amri@company.com,Data & Intelligence,2022-06-25,6573,1643977481,5
+1051,Yousef Al-Harbi,yousef.harbi@company.com,Finance,08/03/2023,8959,1486067715,2
+1052,Reem Al-Ghamdi,reem.ghamdi@company.com,IT,2024-09-22,-11212,1584000187,4
+1053,Lama Al-Dosari,lama.dosari@company.com,Finance,10/11/2023,30600,1310175441,5
+1054,Lama Al-Qahtani,lama.qahtani@company.com,Finance,21/04/2025,20026,1401332446,3
+1055,Noura Al-Zahrani,noura.zahrani@company.com,Internal Audit,2023-10-09,18233,1131150658,4
+1056,Reem Al-Qahtani,reem.qahtani_company.com,IT,2026-02-08,26149,1407313843,3
+1057,Rima Al-Dosari,rima.dosari@company.com,Data & Intelligence,2023-09-02,30207,1804369623,4
+1058,Sara Al-Otaibi,sara.otaibi@company.com,Data & Intelligence,2022-06-03,22288,1457378061,4
+1059,Faisal Al-Amri,faisal.amri@company.com,Information Technology,,24214,1377409322,1
+1060,Reem Al-Dosari,reem.dosari@company.com,finance,2026-03-08,18349,1634880087,3
+1061,Salman Al-Amri,salman.amri@company.com,Human Resources,19/03/2023,14141,1563681107,3
+1062,Omar Al-Dosari,omar.dosari@company.com,Data & Intelligence,2024-08-27,-22050,1986469662,3
+1063,Noura Al-Qahtani,noura.qahtani@company.com,Data & Intelligence,2022-11-08,28350,1852697005,2
+1064,Abdullah Al-Saud,abdullah.saud_company.com,Internal Audit,2022-09-15,7231,1237403356,2
+1065,Sara Al-Qahtani,sara.qahtani@company.com,Data & Intelligence,2025-04-08,14548,1111233098,5
+1066,Lama Al-Harbi,lama.harbi@company.com,Data & Intelligence,2023-04-26,6959,35443,4
+1067,Sara Al-Zahrani,sara.zahrani@company.com,Internal Audit,2024-05-19,13431,1871303373,4
+1068,Omar Al-Zahrani,omar.zahrani@company.com,Data & Intelligence,30/10/2024,22242,1980473121,4
+1069,Khalid Al-Zahrani,,IT,2025-07-01,12137,87961,4
+1070,Omar Al-Harbi,omar.harbi_company.com,finance,,7698,1582799376,2
+1071,Sara Al-Otaibi,sara.otaibi@company.com,finance,2023-01-15,,1813426129,5
+1072,Rima Al-Otaibi,,Information Technology,2022-06-10,17516,1702507581,4
+1073,Lama Al-Zahrani,lama.zahrani@company.com,finance,04/06/2024,29109,1579261983,3
+1074,Omar Al-Dosari,omar.dosari@company.com,Finance,2025-07-04,7332,1962577693,4
+1075,Reem Al-Qahtani,reem.qahtani@company.com,finance,2023-11-26,16976,1381505551,5
+1076,Khalid Al-Saud,khalid.saud@company.com,Data & Intelligence,2025-05-04,26774,1986930428,3
+1077,Turki Al-Dosari,turki.dosari@company.com,Finance,2024-05-30,10348,1961751170,3
+1078,Hind Al-Harbi,hind.harbi@company.com,IT,2023-10-17,31684,1311861922,4
+1079,Yousef Al-Qahtani,yousef.qahtani@company.com,Finance,2024-09-13,16674,1212980632,2
+1080,Noura Al-Qahtani,noura.qahtani@company.com,Information Technology,2025-12-24,11675,1766050263,2
+1081,Turki Al-Zahrani,turki.zahrani@company.com,Information Technology,2025-03-06,14324,1365675002,3
+1082,Khalid Al-Malki,khalid.malki@company.com,Data & Intelligence,2022-05-13,14059,1968058944,1
+1083,Sara Al-Saud,sara.saud@company.com,Information Technology,2023-04-19,-18251,88707,2
+1084,Lama Al-Amri,lama.amri@company.com,finance,2024-07-08,31395,1213580477,4
+1085,Omar Al-Ghamdi,omar.ghamdi@company.com,finance,2022-04-01,-14353,1318443959,4
+1086,Salman Al-Ghamdi,salman.ghamdi@company.com,Internal Audit,02/10/2023,7031,1167936803,3
+1087,Salman Al-Amri,salman.amri_company.com,Human Resources,2022-12-02,14885,1430278432,5
+1088,Reem Al-Malki,reem.malki@company.com,Internal Audit,2024-04-28,31122,1311743592,4
+1089,Omar Al-Dosari,omar.dosari@company.com,IT,17/05/2024,8965,1594894303,1
+1090,Omar Al-Amri,,Finance,23/03/2024,26388,1284346077,3
+1091,Abdullah Al-Otaibi,abdullah.otaibi@company.com,Human Resources,2022-08-11,30692,1311894043,3
+1092,Lama Al-Saud,lama.saud@company.com,Information Technology,2025-07-27,29340,1272095201,4
+1093,Hind Al-Harbi,hind.harbi@company.com,IT,2023-01-10,7366,1511861992,4
+1094,Reem Al-Harbi,reem.harbi_company.com,Data & Intelligence,2025-02-25,-28028,1226412717,5
+1095,Salman Al-Dosari,salman.dosari@company.com,Data & Intelligence,2023-05-26,27588,91119,3
+1096,Noura Al-Shahri,noura.shahri@company.com,Internal Audit,2026-05-17,11884,1172070263,5
+1097,Sara Al-Shahri,sara.shahri@company.com,HR,07/09/2025,26854,1436860564,1
+1098,Turki Al-Amri,turki.amri@company.com,HR,2025-08-29,-10462,1759410380,4
+1099,Faisal Al-Shahri,faisal.shahri@company.com,Finance,2022-12-05,29628,1476773215,3
+1100,Lama Al-Malki,lama.malki@company.com,Information Technology,,22456,1735534654,5
+1101,Lama Al-Saud,lama.saud@company.com,Finance,,15115,1281185386,2
+1102,Turki Al-Amri,turki.amri_company.com,Internal Audit,2024-01-07,20845,1212322843,5
+1103,Khalid Al-Dosari,khalid.dosari@company.com,Human Resources,,16840,1289790373,5
+1104,Maha Al-Amri,maha.amri@company.com,Information Technology,2025-08-02,25197,14429,3
+1105,Khalid Al-Malki,khalid.malki@company.com,Human Resources,2024-05-05,7565,17129,5
+1106,Khalid Al-Qahtani,khalid.qahtani@company.com,Data & Intelligence,2024-12-29,25123,1493241331,3
+1107,Faisal Al-Saud,faisal.saud@company.com,Internal Audit,2023-05-14,20773,1814545669,5
+1108,Omar Al-Saud,omar.saud@company.com,Information Technology,2025-02-25,25487,1655749968,3
+1109,Bandar Al-Saud,bandar.saud_company.com,Information Technology,24/12/2024,12083,1936307703,3
+1110,Yousef Al-Harbi,yousef.harbi@company.com,Finance,2025-08-09,27022,1646079341,1
+1111,Bandar Al-Shahri,bandar.shahri@company.com,IT,2022-01-14,20308,1896453305,4
+1112,Sara Al-Zahrani,sara.zahrani@company.com,Finance,,30564,1382714645,4
+1113,Salman Al-Amri,salman.amri@company.com,Information Technology,2023-08-29,13110,1282288703,4
+1114,Faisal Al-Ghamdi,faisal.ghamdi@company.com,Data & Intelligence,2024-03-07,13837,1843934457,3
+1115,Maha Al-Amri,maha.amri@company.com,HR,2022-02-24,29744,1947399622,3
+1116,Faisal Al-Saud,faisal.saud_company.com,Human Resources,2022-08-07,11302,28140,2
+1117,Reem Al-Saud,reem.saud_company.com,HR,2025-04-24,12531,60311,4
+1118,Noura Al-Harbi,,Data & Intelligence,2022-03-12,30699,1778107149,2
+1119,Faisal Al-Qahtani,faisal.qahtani@company.com,Finance,2025-08-16,16457,1476776867,1
+1120,Reem Al-Ghamdi,reem.ghamdi@company.com,Human Resources,2026-04-25,22506,64122,4
+1121,Abdullah Al-Qahtani,abdullah.qahtani@company.com,Finance,14/12/2025,24549,1197591900,3
+1122,Yousef Al-Saud,yousef.saud@company.com,IT,2023-08-14,-7768,1627727025,3
+1123,Hind Al-Ghamdi,hind.ghamdi@company.com,IT,2024-11-21,11206,1851060018,2
+1124,Salman Al-Qahtani,salman.qahtani@company.com,HR,2025-11-28,9426,1530860990,4
+1125,Bandar Al-Saud,bandar.saud@company.com,Data & Intelligence,2023-09-13,23856,1777256245,3
+1126,Abdullah Al-Malki,abdullah.malki@company.com,Data & Intelligence,2026-03-23,7110,1266780821,5
+1127,Faisal Al-Shahri,faisal.shahri@company.com,Information Technology,2026-05-03,13570,1847929722,5
+1128,Khalid Al-Malki,,Information Technology,2022-11-16,29696,1272791213,5
+1129,Reem Al-Qahtani,reem.qahtani@company.com,Internal Audit,09/09/2025,18590,1424383083,5
+1130,Noura Al-Qahtani,noura.qahtani@company.com,Information Technology,2022-08-07,,1949334392,5
+1131,Rima Al-Saud,,Internal Audit,2025-05-21,6180,1561739444,4
+1132,Salman Al-Malki,salman.malki@company.com,Internal Audit,2025-10-23,10070,1774607231,4
+1133,Turki Al-Dosari,turki.dosari@company.com,IT,,,1539530489,5
+1134,Turki Al-Saud,turki.saud@company.com,Information Technology,2024-09-30,-9485,1272703437,5
+1135,Sara Al-Malki,sara.malki@company.com,Internal Audit,2023-02-24,-22783,1497192031,3
+1136,Noura Al-Otaibi,noura.otaibi@company.com,Internal Audit,2026-04-12,29891,1160793445,4
+1137,Omar Al-Saud,omar.saud_company.com,Internal Audit,2024-05-11,28114,1340976981,4
+1138,Turki Al-Dosari,turki.dosari@company.com,Information Technology,,31447,1307416886,3
+1139,Lama Al-Dosari,lama.dosari@company.com,Information Technology,2023-08-26,27286,1480905799,5
+1140,Reem Al-Dosari,reem.dosari@company.com,Finance,2024-05-22,-21780,1401948753,5
+1141,Rima Al-Shahri,rima.shahri@company.com,finance,29/07/2025,17876,84001,3
+1142,Abdullah Al-Ghamdi,abdullah.ghamdi@company.com,IT,2022-01-31,12873,1368463974,4
+1143,Faisal Al-Shahri,faisal.shahri@company.com,HR,2022-11-09,19188,1838762373,5
+1144,Noura Al-Shahri,noura.shahri@company.com,Information Technology,23/12/2024,20371,1227155277,3
+1145,Rima Al-Shahri,rima.shahri@company.com,Human Resources,2024-09-18,10732,1276755499,3
+1146,Maha Al-Ghamdi,maha.ghamdi@company.com,HR,2025-02-26,15726,1549701124,3
+1147,Salman Al-Ghamdi,salman.ghamdi@company.com,HR,28/02/2022,7503,1454824193,3
+1148,Rima Al-Otaibi,rima.otaibi_company.com,Information Technology,2026-01-10,10158,1493159512,5
+1149,Yousef Al-Ghamdi,yousef.ghamdi@company.com,Finance,08/02/2025,15474,1533501464,5
+1150,Noura Al-Shahri,noura.shahri@company.com,Internal Audit,2023-11-09,29369,15249,4
+1151,Abdullah Al-Malki,abdullah.malki_company.com,Human Resources,08/09/2023,7520,1753571200,4
+1152,Hind Al-Otaibi,hind.otaibi@company.com,IT,2025-11-27,,1780313497,2
+1153,Salman Al-Otaibi,salman.otaibi@company.com,Finance,2024-05-13,-27486,1248923514,5
+1154,Faisal Al-Dosari,faisal.dosari_company.com,Human Resources,2022-02-11,27029,1634471182,2
+1155,Turki Al-Dosari,turki.dosari@company.com,Data & Intelligence,2024-04-08,6463,1808022304,4
+1156,Abdullah Al-Qahtani,abdullah.qahtani_company.com,HR,2024-08-25,10973,1110015293,2
+1157,Noura Al-Qahtani,,finance,2022-02-06,24644,1301230305,3
+1158,Reem Al-Qahtani,reem.qahtani@company.com,Human Resources,2025-02-15,21092,1156544170,1
+1159,Omar Al-Malki,omar.malki_company.com,finance,2023-09-30,25664,1622191217,5
+1160,Hind Al-Shahri,hind.shahri@company.com,Data & Intelligence,,9824,1776142463,4
+1161,Turki Al-Shahri,turki.shahri@company.com,finance,2026-05-26,16940,1798949032,1
+1162,Maha Al-Otaibi,maha.otaibi@company.com,Information Technology,2023-09-25,14064,1746158584,3
+1163,Khalid Al-Saud,khalid.saud@company.com,IT,2023-07-03,25223,28437,5
+1164,Maha Al-Amri,maha.amri@company.com,Information Technology,2024-10-20,8787,1509887832,5
+1165,Hind Al-Saud,hind.saud@company.com,HR,2024-08-10,,1513362765,5
+1166,Turki Al-Qahtani,turki.qahtani@company.com,Information Technology,2025-04-02,14504,1611730563,4
+1167,Noura Al-Harbi,noura.harbi_company.com,Information Technology,2025-12-06,24935,1655357912,1
+1168,Bandar Al-Shahri,bandar.shahri@company.com,Human Resources,2022-08-06,21185,46771,2
+1169,Omar Al-Harbi,omar.harbi@company.com,Data & Intelligence,2025-03-04,24585,1400459260,3
+1170,Khalid Al-Saud,khalid.saud@company.com,HR,2023-01-06,6901,1857600380,4
+1171,Bandar Al-Qahtani,bandar.qahtani@company.com,IT,2022-07-04,24496,1819107969,3
+1172,Maha Al-Otaibi,maha.otaibi@company.com,Human Resources,2023-04-27,13265,82461,1
+1173,Khalid Al-Amri,khalid.amri@company.com,Finance,2025-08-17,21840,36076,3
+1174,Turki Al-Qahtani,turki.qahtani@company.com,IT,2024-02-01,10067,1573933352,1
+1175,Rima Al-Harbi,rima.harbi@company.com,IT,2022-11-18,13227,1500608173,3
+1176,Sara Al-Dosari,sara.dosari@company.com,IT,10/07/2025,17133,1224135709,5
+1177,Noura Al-Saud,noura.saud@company.com,IT,2024-07-13,10741,1549106497,1
+1178,Khalid Al-Malki,khalid.malki@company.com,Human Resources,2023-11-17,14541,1618012036,4
+1179,Abdullah Al-Shahri,abdullah.shahri@company.com,Information Technology,2022-09-02,12606,1380807953,2
+1099,Faisal Al-Shahri,faisal.shahri@company.com,Finance,2022-12-05,29628,1476773215,3
+1074,Omar Al-Dosari,omar.dosari@company.com,Finance,2025-07-04,7332,1962577693,4
+1106,Khalid Al-Qahtani,khalid.qahtani@company.com,Data & Intelligence,2024-12-29,25123,1493241331,3
+1041,Noura Al-Ghamdi,noura.ghamdi@company.com,Human Resources,2023-11-18,21553,1366480598,2
+1014,Hind Al-Ghamdi,hind.ghamdi@company.com,finance,2022-08-25,21269,1254744982,5
+1075,Reem Al-Qahtani,reem.qahtani@company.com,finance,2023-11-26,16976,1381505551,5
