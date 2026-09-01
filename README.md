@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-3fe089.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-8d6bff.svg)](requirements.txt)
 
-**🌐 [Try the live, zero-install demo →](https://omaralthunaiyan-cloud.github.io/data-quality-profiler/)** — same engine, ported to vanilla JS, runs entirely in your browser. Nothing to install, nothing uploaded anywhere. It even exports a formatted PDF report.
+**🌐 [Try the live, zero-install demo →](https://claude.ai/code/artifact/dff15977-cbaf-4bca-9da4-d3f45b7cec77)** — same engine, ported to vanilla JS, runs entirely in your browser. Nothing to install, nothing uploaded anywhere. It even exports a formatted PDF report.
 
 No schema. No column mapping. No "tell me what this file contains" step. Point it at an HR export, a project tracker, a sales ledger — anything with rows and columns — and it infers what each column *should* look like, then tells you exactly where the data breaks that pattern. Workbooks with multiple sheets get a sheet picker automatically — pick one, get its report, switch sheets without re-uploading.
 
@@ -37,7 +37,7 @@ Dataset-level, it also rolls every column into a set of headline KPIs — averag
 
 ## Try it in 60 seconds
 
-**Option A — zero install:** open the **[live demo](https://omaralthunaiyan-cloud.github.io/data-quality-profiler/)**, click a sample dataset (or drop in your own file), done.
+**Option A — zero install:** open the **[live demo](https://claude.ai/code/artifact/dff15977-cbaf-4bca-9da4-d3f45b7cec77)**, click a sample dataset (or drop in your own file), done.
 
 **Option B — run the Python/Streamlit version locally:**
 
@@ -50,6 +50,16 @@ streamlit run app/streamlit_app.py
 
 The app opens with two ready-made sample datasets in the sidebar — `employees.xlsx` and `projects.xlsx` — both deliberately seeded with realistic messiness (broken emails, inconsistent date formats, negative salaries, duplicate rows, invalid IDs) so you can see the profiler catch real problems immediately. Or just drag in your own `.xlsx`/`.csv`.
 
+## 🔒 Privacy & security
+
+The two implementations have a real, not just claimed, difference here — worth understanding before you point either one at sensitive data.
+
+**The live demo (JS) is provably client-side.** There's no backend at all: the file you drop in is parsed and profiled entirely inside your own browser tab. Nothing is uploaded, nothing is logged. You don't have to take that on faith — open your browser's dev tools, go to the Network tab, and upload a file: the only requests you'll see are the Google Fonts loaded once on page load. Zero requests carry your data anywhere. That's the version to reach for when you want someone to try the tool on something they'd rather not hand to a server, including a real screenshot-worthy file from work.
+
+**The Streamlit app depends on where you run it.** Run it locally with `streamlit run app/streamlit_app.py` (as below) and it's exactly as private as the JS demo — the app is just a process on your own machine, nothing leaves it. But if this app were ever deployed to a shared host (e.g. Streamlit Community Cloud) so other people could use it without installing anything, uploaded files would be processed on that remote server for the duration of the session — the code doesn't persist or log them, but "processed remotely" is a meaningfully different guarantee than "never leaves your browser," and worth being explicit about rather than assuming people know which one they're using.
+
+**Practical takeaway:** demo with the JS version by default, and lean on the two seeded sample datasets (`employees.xlsx`, `projects.xlsx`) for any live walkthrough — they're synthetic and built to be messy on purpose, so there's never a reason to reach for a real file just to show the tool working. Both engines are fully open source, so anyone who wants a stronger guarantee than "trust me" can read `src/` and `ui.js` directly, or clone the repo and run everything offline.
+
 ## Architecture
 
 ```
@@ -59,16 +69,6 @@ data-quality-profiler/
 │   └── profiler.py         # completeness / validity / uniqueness / outliers / scoring
 ├── app/
 │   └── streamlit_app.py    # interactive UI: upload, visualize, export report
-├── web/                    # source for the vanilla-JS live demo (second engine)
-│   ├── shell.html          # page layout + CSS (light/dark theme)
-│   ├── ui.js                # app logic: load, profile, render, CSV/PDF export
-│   ├── app.js               # small shared helpers
-│   ├── vendor/xlsx.mini.min.js  # SheetJS, parses .xlsx/.xls client-side
-│   ├── examples/*.csv       # sample datasets, embedded into the built page
-│   ├── build.py             # assembles the above into artifact.html
-│   └── artifact.html        # pre-built, single-file standalone output
-├── docs/
-│   └── index.html          # GitHub Pages copy of web/artifact.html — this is what's live
 ├── examples/
 │   ├── generate_examples.py
 │   ├── employees.xlsx      # sample dataset #1 (HR-flavored)
@@ -84,7 +84,7 @@ The type-inference and profiling engine (`src/`) has **no dependency on the UI**
 
 ## Two implementations, one engine
 
-This repo ships the original Python/pandas implementation, with a full test suite and CI. The [live demo](https://omaralthunaiyan-cloud.github.io/data-quality-profiler/) (source in `web/`) is a from-scratch port of the same detectors and scoring rules to dependency-free vanilla JavaScript, so it can run entirely client-side with no server and no install — including a one-click, print-ready PDF export. Porting the same logic to a second language and getting matching scores on both sample datasets (89.5/100 and 95.0/100) was itself a useful correctness check on the scoring rules.
+This repo ships the original Python/pandas implementation, with a full test suite and CI. The [live demo](https://claude.ai/code/artifact/dff15977-cbaf-4bca-9da4-d3f45b7cec77) is a from-scratch port of the same detectors and scoring rules to dependency-free vanilla JavaScript, so it can run entirely client-side with no server and no install — including a one-click, print-ready PDF export. Porting the same logic to a second language and getting matching scores on both sample datasets (89.5/100 and 95.0/100) was itself a useful correctness check on the scoring rules.
 
 ## How type inference works
 
